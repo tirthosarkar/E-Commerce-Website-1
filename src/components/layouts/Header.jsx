@@ -52,6 +52,10 @@ const Header = () => {
           >
             <FaCartShopping />
           </Link>
+
+          <Link className='bg-green-400 px-5 py-3 ms-3 text-md text-gray-800 rounded-md'>
+            Login
+          </Link>
         </nav>
       </div>
     </header>
