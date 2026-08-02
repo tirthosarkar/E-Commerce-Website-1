@@ -5,24 +5,20 @@ import Checkout from './pages/Checkout';
 import Login from './pages/Login';
 import Product from './pages/Product';
 import Shop from './pages/Shop';
-import Header from './components/layouts/Header';
-import Footer from './components/layouts/Footer';
+import Register from './pages/Register';
+
 
 function App() {
   return (
     <>
-      <Header />
-      <Footer />
-
       <Routes>
-        {/* <Route path="/Header" element={<Header />} />
-        <Route path="/Footer" element={<Footer />} />
         <Route path="/" element={<Home />} />
         <Route path="/Cart" element={<Cart />} />
         <Route path="/Checkout" element={<Checkout />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Product" element={<Product />} />
-        <Route path="/Shop" element={<Shop />} /> */}
+        <Route path="/Shop" element={<Shop />} />
+        <Route path="/Register" element={<Register />} />
       </Routes>
     </>
   );

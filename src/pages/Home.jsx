@@ -1,9 +1,16 @@
 import React from 'react'
+import Header from '../components/layouts/Header'
+import Footer from '../components/layouts/Footer'
+import Hero from '../components/Hero'
 
-function Home() {
+const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <Header />
+      <Hero />
+      <Footer />
+    </>
   )
 }
 
-export default Home;
+export default Home
