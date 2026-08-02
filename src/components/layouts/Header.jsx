@@ -12,7 +12,7 @@ const Header = () => {
       </div>
 
       {/* Main Navigation Bar */}
-      <div className="max-w-7xl mx-auto lg:py-6 py-3 lg:px-8 px-5 flex flex-wrap sm:flex-row justify-between items-center gap-3">
+      <div className="max-w-360 mx-auto lg:py-6 py-3 lg:px-8 px-5 flex flex-wrap sm:flex-row justify-between items-center gap-3">
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <span className="text-3xl text-green-500 font-bold">X</span>
@@ -21,30 +21,11 @@ const Header = () => {
 
         {/* Navigation Links */}
         <nav className="text-md text-gray-800 space-x-5 flex items-center">
-          <Link
-            className="hover:text-green-500 transition-colors duration-200"
-            to="/"
-          >
-            Home
-          </Link>
-          <Link
-            className="hover:text-green-500 transition-colors duration-200"
-            to="/shop"
-          >
-            Mens
-          </Link>
-          <Link
-            className="hover:text-green-500 transition-colors duration-200"
-            to="/shop"
-          >
-            Womens
-          </Link>
-          <Link
-            className="hover:text-green-500 transition-colors duration-200"
-            to="/shop"
-          >
-            Kids
-          </Link>
+          <Link className="hover:text-green-500"to="/">Home</Link>
+          <Link className="hover:text-green-500"to="/">Home</Link>
+          <Link className="hover:text-green-500"to="/">Home</Link>
+          <Link className="hover:text-green-500" to="/">Home</Link>
+          
           <Link
             className="hover:text-green-500 transition-colors duration-200 text-lg"
             to="/cart"
