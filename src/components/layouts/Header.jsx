@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { IoCartOutline } from 'react-icons/io5';
+import Login from './../../pages/Login';
 
 const Header = () => {
   return (
@@ -20,7 +21,7 @@ const Header = () => {
         </Link>
 
         {/* Navigation Links */}
-        <nav className="text-md text-gray-800 space-x-5 flex">
+        <nav className="text-md text-gray-800 space-x-5 flex items-center">
           <Link className="hover:text-green-500" to="/">
             Home
           </Link>
@@ -35,8 +36,12 @@ const Header = () => {
           </Link>
 
           <Link>
-            <span className="bg-red-400 text-sm rounded-[50%] flex justify-center items-center text-white absolute left-2 w-6 h-6 -top-5.5">0</span>
+            <span className="bg-red-400 text-sm rounded-[50%] flex justify-center items-center text-white left-2 w-5 h-5 -top-5.5">0</span>
           <IoCartOutline className='mt-1' />
+          </Link>
+
+          <Link className='bg-green-400 px-5 py-3 text-md rounded-md text-gray-800 ms-3'>
+          Login
           </Link>
         </nav>
       </div>
