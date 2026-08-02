@@ -5,10 +5,15 @@ import Checkout from './pages/Checkout';
 import Login from './pages/Login';
 import Product from './pages/Product';
 import Shop from './pages/Shop';
+import Header from './components/layouts/Header';
+import Footer from './components/layouts/Footer';
 
 function App() {
   return (
     <>
+      <Header />
+      <Footer />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Cart" element={<Cart />} />

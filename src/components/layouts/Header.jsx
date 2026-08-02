@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { FaCartShopping } from 'react-icons/fa6';
+import { IoCartOutline } from 'react-icons/io5';
 
 const Header = () => {
   return (
@@ -20,22 +20,23 @@ const Header = () => {
         </Link>
 
         {/* Navigation Links */}
-        <nav className="text-md text-gray-800 space-x-5 flex items-center">
-          <Link className="hover:text-green-500"to="/">Home</Link>
-          <Link className="hover:text-green-500"to="/">Home</Link>
-          <Link className="hover:text-green-500"to="/">Home</Link>
-          <Link className="hover:text-green-500" to="/">Home</Link>
-          
-          <Link
-            className="hover:text-green-500 transition-colors duration-200 text-lg"
-            to="/cart"
-            aria-label="Cart"
-          >
-            <FaCartShopping />
+        <nav className="text-md text-gray-800 space-x-5 flex">
+          <Link className="hover:text-green-500" to="/">
+            Home
+          </Link>
+          <Link className="hover:text-green-500" to="/">
+            Home
+          </Link>
+          <Link className="hover:text-green-500" to="/">
+            Home
+          </Link>
+          <Link className="hover:text-green-500" to="/">
+            Home
           </Link>
 
-          <Link className='bg-green-400 px-5 py-3 ms-3 text-md text-gray-800 rounded-md'>
-            Login
+          <Link>
+            <span className="bg-red-400 text-sm rounded-[50%] flex justify-center items-center text-white absolute left-2 w-6 h-6 -top-5.5">0</span>
+          <IoCartOutline className='mt-1' />
           </Link>
         </nav>
       </div>
