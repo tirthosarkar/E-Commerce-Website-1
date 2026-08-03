@@ -22,7 +22,7 @@ const Header = () => {
         </Link>
 
         {/* Navigation Links */}
-        <nav className="text-md text-gray-800 space-x-5 flex items-center">
+        <nav className="text-lg text-gray-800 space-x-5 flex items-center">
           <Link className="hover:text-green-500" to="/">
             Home
           </Link>
