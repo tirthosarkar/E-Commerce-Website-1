@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="max-w-360 mx-auto lg:px-8 px-5">
         <div className="grid grid-cols-1 sm:grid-cols-2 items-center py-5 sm:py-20">
           {/* left box */}
-          <div className="space-y-7 py-10 pr-20">
+          <div className="space-y-7 py-10 pr-0 sm:pr-20">
             <h2 className="lg:text-5xl text-3xl text-gray-700 font-bold leading-14">
               Discover Your Style with Our Collection
             </h2>
