@@ -1,6 +1,8 @@
 import React from 'react';
 import ProductImage1 from '../assets/product1.png';
 import ProductImage2 from '../assets/product2.jpg';
+import ProductImage3 from '../assets/product3.png';
+
 
 const FeaturedProducts = () => {
   const products = [
@@ -21,7 +23,7 @@ const FeaturedProducts = () => {
     {
       id: 3,
       name: 'Dummy Product 3',
-      image: ProductImage1,
+      image: ProductImage3,
       price: 200,
       crossPrice: 220,
     },
@@ -46,7 +48,7 @@ const FeaturedProducts = () => {
       <h2 className="text-green-400 text-4xl font-medium pb-10">
         Featured <span className="text-gray-700">Products</span>
       </h2>
-      <div className="grid grid-cols-1 lg:grid-cols-5 sm:grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-5 sm:grid-cols-2 space-y-5 lg:space-y-0 gap-5">
         {products.map(product => {
           return (
             <div key={product.id}>
