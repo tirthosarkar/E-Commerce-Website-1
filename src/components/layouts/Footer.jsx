@@ -5,7 +5,7 @@ import Register from './../../pages/Register';
 
 const Footer = () => {
   return (
-    <div className="max-w-360  mx-auto bg-green-300 lg:px-8 px-5">
+    <div className="max-w-360 mx-auto bg-green-300 lg:px-8 px-5">
       <div className="grid grid-cols-1 gap-y-5 lg:grid-cols-3 rounded-lg p-10">
         <Link to="/" className="flex items-center">
           <span className="text-3xl text-white font-bold">X</span>
@@ -54,6 +54,9 @@ const Footer = () => {
             </a>
           </div>
         </div>
+      </div>
+      <div className="text-center py-5 text-gray-700">
+        &copy; {new Date().getFullYear()} ECOMMERCE. All rights reserved.
       </div>
     </div>
   );
