@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Login from './../../pages/Login';
+import Register from './../../pages/Register';
 
 const Footer = () => {
   return (
@@ -9,7 +11,12 @@ const Footer = () => {
           <span className="text-3xl text-white font-bold">X</span>
           <span className="text-3xl text-slate-800 font-bold">ECOMM</span>
         </Link>
-        
+        <p>Your destination for all your shopping needs.</p>
+        <div className='flex flex-col'>
+          <h2 className='text-xl text-gray-800 font-bold mb-3'>Quick Links</h2>
+          <Link>Login</Link>
+          <Link>Register</Link>
+        </div>
         <div className="space-y-3">
           <h2 className="text-2xl text-gray-800 font-semibold">About Us</h2>
           <p className="text-gray-700">
