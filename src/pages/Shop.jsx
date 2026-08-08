@@ -1,16 +1,28 @@
-import React from 'react'
-import Header from '../components/layouts/Header';
-import Footer from '../components/layouts/Footer';
+
+import Layout from '../components/layouts/Layout'
+import { Link } from 'react-router-dom';
+import { IoIosArrowForward } from 'react-icons/io';
+
 
 const Shop = () => {
   return (
     <>
-      <Header />
-      
-      <Footer />
+      <Layout>
+        {/*Breadcrumb*/}
 
+        <div className='max-w-360 lg:px-8 px-5 mx-auto'>
+          <div className="flex gap-x-1 items-center text-sm  ">
+            <Link to="/">Home</Link>
+            <IoIosArrowForward />
+
+            <Link className='font-bold' to="/shop">Shop</Link>
+          </div>
+        </div>
+        {/*Title*/}
+        {/*Main Container*/}
+      </Layout>
     </>
-  )
+  );
 }
 
 export default Shop
