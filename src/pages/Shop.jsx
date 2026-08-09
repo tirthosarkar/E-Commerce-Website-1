@@ -32,8 +32,14 @@ const Shop = () => {
           <div className='grid grid-cols-12 gap-5'>
             {/*Sidebar*/}
             <div className='col-span-3 border'>
-              asdf
-
+              <div className='flex justify-between items-center'>
+                <span className='text-2xl font-bold'>Filters</span>
+                <span className=''>Clear</span>
+              </div>
+              <div className='font-bold text-lg'>Category</div>
+              <div className='flex'>
+                <input type="checkbox" className='w-4 border border-gray-400' />
+              </div>
             </div>
             {/*Product*/}
             <div className='col-span-9 border'>
