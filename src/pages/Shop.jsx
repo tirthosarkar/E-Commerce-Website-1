@@ -22,32 +22,42 @@ const Shop = () => {
         </div>
         {/*Title*/}
         <div className="max-w-360 lg:px-8 px-5 mx-auto">
-          <div className="flex text-4xl text-green-400  ">
-            Shop
-
-          </div>
+          <div className="flex text-4xl text-green-400  ">Shop</div>
         </div>
         {/*Main Container*/}
         <div className="max-w-360 lg:px-8 px-5 mx-auto mt-5">
-          <div className='grid grid-cols-12 gap-5'>
+          <div className="grid grid-cols-12 gap-5">
             {/*Sidebar*/}
-            <div className='col-span-3 border'>
-              <div className='flex justify-between items-center'>
-                <span className='text-2xl font-bold'>Filters</span>
-                <span className=''>Clear</span>
+            <div className="col-span-3 border">
+              <div className="flex justify-between items-center mb-3">
+                <span className="text-2xl font-bold">Filters</span>
+                <span className="">Clear</span>
               </div>
-              <div className='font-bold text-lg mb-2'>Category</div>
-              <div className='flex items-center space-x-2'>
-                <input type="checkbox" className='w-4 h-4 border-gray-400' />
-                <span className='ml-2'>Topwear</span>
+              <div className="font-bold text-lg mb-2">Category</div>
+
+              <div className="flex items-center space-x-2">
+                <input type="checkbox" className="w-4 h-4 border-gray-400" />
+                <span>Topwear</span>
               </div>
+
+              <div className="flex items-center space-x-2">
+                <input type="checkbox" className="w-4 h-4 border-gray-400" />
+                <span>Topwear</span>
+              </div>
+
+              <div className="flex items-center space-x-2">
+                <input type="checkbox" className="w-4 h-4 border-gray-400" />
+                <span>Topwear</span>
+              </div>
+              
+              <div className="flex items-center space-x-2">
+                <input type="checkbox" className="w-4 h-4 border-gray-400" />
+                <span>Topwear</span>
+              </div>
+
             </div>
             {/*Product*/}
-            <div className='col-span-9 border'>
-              asdf
-
-            </div>
-
+            <div className="col-span-9 border">asdf</div>
           </div>
         </div>
       </Layout>
