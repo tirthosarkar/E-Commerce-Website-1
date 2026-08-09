@@ -36,9 +36,10 @@ const Shop = () => {
                 <span className='text-2xl font-bold'>Filters</span>
                 <span className=''>Clear</span>
               </div>
-              <div className='font-bold text-lg'>Category</div>
-              <div className='flex'>
-                <input type="checkbox" className='w-4 border border-gray-400' />
+              <div className='font-bold text-lg mb-2'>Category</div>
+              <div className='flex items-center space-x-2'>
+                <input type="checkbox" className='w-4 h-4 border-gray-400' />
+                <span className='ml-2'>Topwear</span>
               </div>
             </div>
             {/*Product*/}
