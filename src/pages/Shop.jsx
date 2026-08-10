@@ -47,34 +47,34 @@ const Shop = () => {
     {
       id: 6,
       name: 'Dummy Product 6',
-      image: ProductImage3,
+      image: ProductImage1,
       price: 350,
       crossPrice: 380,
     },
     {
       id: 7,
       name: 'Dummy Product 7',
-      image: ProductImage1,
+      image: ProductImage2,
       price: 400,
       crossPrice: 440,
     },
     {
       id: 8,
-      name: 'Dummy Product 3',
+      name: 'Dummy Product 8',
       image: ProductImage3,
       price: 200,
       crossPrice: 220,
     },
     {
       id: 9,
-      name: 'Dummy Product 4',
+      name: 'Dummy Product 9',
       image: ProductImage1,
       price: 250,
       crossPrice: 270,
     },
     {
       id: 10,
-      name: 'Dummy Product 5',
+      name: 'Dummy Product 10',
       image: ProductImage2,
       price: 300,
       crossPrice: 330,
@@ -103,7 +103,7 @@ const Shop = () => {
         <div className="max-w-360 lg:px-8 px-5 mx-auto mt-5">
           <div className="grid grid-cols-12 gap-5">
             {/*Sidebar*/}
-            <div className="col-span-3 pb-5">
+            <div className="col-span-12 lg:col-span-2 pb-5">
               <div className="flex justify-between items-center mb-3 border-b border-gray-200">
                 <span className="text-2xl font-bold">Filters</span>
                 <span className="">Clear</span>
@@ -174,14 +174,14 @@ const Shop = () => {
               </div>
             </div>
             {/*Product*/}
-            <div className="col-span-9 border">
+            <div className="col-span-12 lg:col-span-10">
               <div className="grid grid-cols-1 lg:grid-cols-5 sm:grid-cols-2 space-y-5 lg:space-y-0 gap-5">
                 {products.map(product => {
                   return (
                     <div key={product.id}>
                       <div className="bg-slate-100 overflow-hidden rounded-lg">
                         <img
-                          className="object-cover h-95 duration-500 ease-in-out transition-transform hover:scale-110"
+                          className="object-cover w-full lg:h-95 duration-500 ease-in-out transition-transform hover:scale-110"
                           src={product.image}
                           alt=""
                         />

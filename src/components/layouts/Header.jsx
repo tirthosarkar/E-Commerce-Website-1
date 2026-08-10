@@ -5,16 +5,16 @@ import Shop from './../../pages/Shop';
 
 const Header = () => {
   return (
-    <header className="relative z-50 w-full bg-white shadow-sm">
+    <header className="shadow">
       {/* Top Banner */}
       <div className="bg-green-200">
-        <div className="text-sm max-w-7xl mx-auto py-1 lg:px-8 px-5 text-center sm:text-left">
+        <div className="text-sm max-w-360 mx-auto py-1 lg:px-8 px-5 flex justify-center items-center ">
           Free Delivery on Your First Order!
         </div>
       </div>
 
       {/* Main Navigation Bar */}
-      <div className="max-w-360 mx-auto lg:py-6 py-3 lg:px-8 px-5 flex flex-wrap sm:flex-row justify-between items-center gap-3">
+      <div className="max-w-360 mx-auto lg:py-6 py-3 lg:px-8 px-5 flex  justify-between items-center">
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <span className="text-3xl text-green-500 font-bold">X</span>
