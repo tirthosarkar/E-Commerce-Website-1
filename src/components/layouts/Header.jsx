@@ -16,7 +16,7 @@ const Header = () => {
       {/* Main Navigation Bar */}
       <div className="max-w-360 mx-auto lg:py-6 py-3 lg:px-8 px-5 flex  justify-between items-center">
         {/* Logo */}
-        <Link to="/" className="flex items-center">
+        <Link to="/" className="flex items-center gap-x-1">
           <span className="text-3xl text-green-500 font-bold">X</span>
           <span className="text-3xl text-slate-800 font-bold">ECOMM</span>
         </Link>
