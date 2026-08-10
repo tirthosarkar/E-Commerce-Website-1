@@ -52,7 +52,7 @@ const LatestProducts = () => {
             <div key={product.id}>
               <div className="bg-slate-100 overflow-hidden rounded-lg">
                 <img
-                  className="object-cover h-95 duration-500 ease-in-out transition-transform hover:scale-110"
+                  className="object-cover w-full lg:h-95 duration-500 ease-in-out transition-transform hover:scale-110"
                   src={product.image}
                   alt=""
                 />

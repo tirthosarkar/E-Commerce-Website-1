@@ -54,7 +54,7 @@ const FeaturedProducts = () => {
             <div key={product.id}>
               <div className="bg-slate-100 overflow-hidden rounded-lg">
                 <img
-                  className="w-full object-cover h-100 duration-500 ease-in-out transition-transform hover:scale-110"
+                  className="w-full object-cover  lg:h-100 duration-500 ease-in-out transition-transform hover:scale-110"
                   src={product.image}
                   alt=""
                 />
