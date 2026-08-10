@@ -9,42 +9,77 @@ import ProductImage3 from '../assets/product3.png';
 
 const Shop = () => {
   const products = [
-      {
-        id: 1,
-        name: 'Dummy Product 1',
-        image: ProductImage1,
-        price: 100,
-        crossPrice: 110,
-      },
-      {
-        id: 2,
-        name: 'Dummy Product 2',
-        image: ProductImage2,
-        price: 150,
-        crossPrice: 160,
-      },
-      {
-        id: 3,
-        name: 'Dummy Product 3',
-        image: ProductImage3,
-        price: 200,
-        crossPrice: 220,
-      },
-      {
-        id: 4,
-        name: 'Dummy Product 4',
-        image: ProductImage1,
-        price: 250,
-        crossPrice: 270,
-      },
-      {
-        id: 5,
-        name: 'Dummy Product 5',
-        image: ProductImage2,
-        price: 300,
-        crossPrice: 330,
-      },
-    ];
+    {
+      id: 1,
+      name: 'Dummy Product 1',
+      image: ProductImage1,
+      price: 100,
+      crossPrice: 110,
+    },
+    {
+      id: 2,
+      name: 'Dummy Product 2',
+      image: ProductImage2,
+      price: 150,
+      crossPrice: 160,
+    },
+    {
+      id: 3,
+      name: 'Dummy Product 3',
+      image: ProductImage3,
+      price: 200,
+      crossPrice: 220,
+    },
+    {
+      id: 4,
+      name: 'Dummy Product 4',
+      image: ProductImage1,
+      price: 250,
+      crossPrice: 270,
+    },
+    {
+      id: 5,
+      name: 'Dummy Product 5',
+      image: ProductImage2,
+      price: 300,
+      crossPrice: 330,
+    },
+    {
+      id: 6,
+      name: 'Dummy Product 6',
+      image: ProductImage3,
+      price: 350,
+      crossPrice: 380,
+    },
+    {
+      id: 7,
+      name: 'Dummy Product 7',
+      image: ProductImage1,
+      price: 400,
+      crossPrice: 440,
+    },
+    {
+      id: 8,
+      name: 'Dummy Product 3',
+      image: ProductImage3,
+      price: 200,
+      crossPrice: 220,
+    },
+    {
+      id: 9,
+      name: 'Dummy Product 4',
+      image: ProductImage1,
+      price: 250,
+      crossPrice: 270,
+    },
+    {
+      id: 10,
+      name: 'Dummy Product 5',
+      image: ProductImage2,
+      price: 300,
+      crossPrice: 330,
+    },
+  ];
   return (
     <>
       <Layout>
