@@ -1,11 +1,10 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Layout from './../components/layouts/Layout';
 import { IoIosArrowForward } from 'react-icons/io';
 import { Link } from 'react-router-dom';
 import ProductImg1 from './../assets/product1.png';
 import ProductImg2 from './../assets/product2.jpg';
 import ProductImg3 from './../assets/product3.png';
-// ❌ removed: import Product from './Product';
 
 const Product = () => {
   const gallery = [
@@ -13,6 +12,18 @@ const Product = () => {
     { id: 2, url: ProductImg2 },
     { id: 3, url: ProductImg3 },
   ];
+
+  const [mainImage, setMainImage] = useState(null);
+
+  const handleGallery = (item) => {
+    setMainImage(item)
+  }
+
+  useEffect(() => {
+    if (gallery) {
+      setMainImage(gallery[0]);
+    }
+  }, []);
 
   return (
     <Layout>
@@ -26,25 +37,32 @@ const Product = () => {
           </Link>
         </div>
       </div>
-
       <div className="max-w-360 lg:px-8 px-5 mx-auto py-5">
         <div className="grid grid-cols-12 gap-5">
-          <div className="lg:col-span-6 col-span-12 border">
+          <div className="lg:col-span-5 col-span-12">
             {/* Gallery */}
             <div className="grid grid-cols-12">
-              <div className="col-span-10">{/* Main Image */}</div>
+              <div className="col-span-10 bg-slate-50">
+                {/* Main Image */}
+                <img src={mainImage?.url} className="w-full" alt="" />
+              </div>
 
               <div className="col-span-2">
                 {/* Small Images */}
                 {gallery &&
                   gallery.map(item => (
-                    <img key={item.id} src={item.url} alt="" />
+                    <img
+                      key={item.id}
+                      onClick={() => handleGallery(item)}
+                      src={item.url}
+                      alt=""
+                    />
                   ))}
               </div>
             </div>
           </div>
 
-          <div className="lg:col-span-6 col-span-12 border"></div>
+          <div className="lg:col-span-7 col-span-12 border"></div>
         </div>
       </div>
     </Layout>
