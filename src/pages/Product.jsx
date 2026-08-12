@@ -15,9 +15,9 @@ const Product = () => {
 
   const [mainImage, setMainImage] = useState(null);
 
-  const handleGallery = (item) => {
-    setMainImage(item)
-  }
+  const handleGallery = item => {
+    setMainImage(item);
+  };
 
   useEffect(() => {
     if (gallery) {
@@ -50,14 +50,18 @@ const Product = () => {
               <div className="col-span-2">
                 {/* Small Images */}
                 {gallery &&
-                  gallery.map(item => (
-                    <img
-                      key={item.id}
-                      onClick={() => handleGallery(item)}
-                      src={item.url}
-                      alt=""
-                    />
-                  ))}
+                  gallery.map(item => {
+                    return (
+                      <Link>
+                        <img
+                          key={item.id}
+                          onClick={() => handleGallery(item)}
+                          src={item.url}
+                          alt=""
+                        />
+                      </Link>
+                    );
+                  })}
               </div>
             </div>
           </div>
