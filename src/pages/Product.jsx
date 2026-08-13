@@ -79,8 +79,8 @@ const Product = () => {
             </h2>
             {/*Price*/}
             <div className="font-bold text-lg mt-3">
-              $100
-              <span className="text-gray-500 font-normal">$150</span>
+              $100 {" "}
+              <span className="text-gray-500 font-normal line-through">$150</span>
             </div>
             {/*Description*/}
             <div className="text-base text-gray-500 mt-3">
@@ -107,6 +107,19 @@ const Product = () => {
               <div className="bg-gray-100 hover:bg-gray-800 hover:text-white cursor-pointer rounded-md w-10 h-10 text-center flex justify-center items-center">
                 XXL
               </div>
+            </div>
+            <div className="mt-8 border-gray-100 pb-10">
+              <Link
+                to="/shop"
+                className="bg-green-400 px-5 py-3 text-md rounded-md text-gray-800 ms-3 hover:text-white hover:bg-green-500"
+              >
+                Add To Cart
+              </Link>
+            </div>
+            <div className='flex flex-col text-gray-500'>
+              <p>100% Cotton</p>
+              <p>Money Back Guarantee</p>
+              <p>Cash on delivery is available on this product</p>
             </div>
           </div>
         </div>
