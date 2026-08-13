@@ -41,10 +41,14 @@ const Product = () => {
         <div className="grid grid-cols-12 gap-5">
           <div className="lg:col-span-5 col-span-12">
             {/* Gallery */}
-            <div className="grid grid-cols-12">
+            <div className="grid grid-cols-12 gap-3">
               <div className="col-span-10 bg-slate-50">
                 {/* Main Image */}
-                <img src={mainImage?.url} className="w-full" alt="" />
+                <img
+                  src={mainImage?.url}
+                  className="w-full rounded-md"
+                  alt=""
+                />
               </div>
 
               <div className="col-span-2">
@@ -56,6 +60,7 @@ const Product = () => {
                         <img
                           onClick={() => handleGallery(item)}
                           src={item.url}
+                          className="w-full bg-slate-50"
                           alt=""
                         />
                       </Link>
@@ -65,7 +70,27 @@ const Product = () => {
             </div>
           </div>
 
-          <div className="lg:col-span-7 col-span-12 border"></div>
+          <div className="lg:col-span-7 col-span-12 border">
+            {/*Product Info*/}
+
+            <h2 className="font-bold text-2xl text-gray-800">
+              {' '}
+              Good Product for men
+            </h2>
+            <div className="font-bold text-lg mt-3">
+              $100
+              <span className="text-gray-500 font-normal">$150</span>
+            </div>
+            {/*Description*/}
+            <div className="text-base text-gray-500 mt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              porro vero pariatur quisquam illo soluta et, rerum provident
+              magnam ipsum adipisci ducimus perferendis dolore sed id blanditiis
+              odit, quis recusandae.
+            </div>
+
+            <div className="font-bold text-lg mt-3">Select Size</div>
+          </div>
         </div>
       </div>
     </Layout>
