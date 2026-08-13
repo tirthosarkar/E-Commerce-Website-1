@@ -26,13 +26,13 @@ const Header = () => {
           <Link className="hover:text-green-500" to="/">
             Home
           </Link>
-          <Link className="hover:text-green-500" to="/shop">
+          <Link className="hover:text-green-500" to="/mens">
             Mens
           </Link>
-          <Link className="hover:text-green-500" to="/Shop">
+          <Link className="hover:text-green-500" to="/womens">
             Womens
           </Link>
-          <Link className="hover:text-green-500" to="/shop">
+          <Link className="hover:text-green-500" to="/kids">
             Kids
           </Link>
 
@@ -44,7 +44,7 @@ const Header = () => {
           </Link>
 
           <Link
-            to="/shop"
+            to="/login"
             className="bg-green-400 px-5 py-3 text-md rounded-md text-gray-800 ms-3 hover:text-white hover:bg-green-500"
           >
             Login

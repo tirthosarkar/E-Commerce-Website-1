@@ -70,7 +70,7 @@ const Product = () => {
             </div>
           </div>
 
-          <div className="lg:col-span-7 col-span-12 border">
+          <div className="lg:col-span-7 col-span-12">
             {/*Product Info*/}
 
             <h2 className="font-bold text-2xl text-gray-800">
