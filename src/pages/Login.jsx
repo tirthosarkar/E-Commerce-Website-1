@@ -6,7 +6,7 @@ import Register from './Register';
 const Login = () => {
   return (
     <Layout>
-      <div className="bg-gray-200 w-full flex justify-center items-center py-30 mb-10">
+      <div className="bg-gray-200 lg:px-8 px-5 w-full flex justify-center items-center py-30 mb-10">
         {/**Login Form */}
         <div className="max-w-md w-full rounded-md px-8 py-7 shadow-md bg-white">
           <h1 className="text-2xl text-gray-800 font-bold text-center">
@@ -41,7 +41,7 @@ const Login = () => {
               </Link>
             </div>
             <div className='text-center text-sm text-gray-800'>
-              Don't have an Account? <Link className='hover:underline'>Register</Link>
+              Don't have an Account? <Link to={'/Register'} className='hover:underline'>Register</Link>
             </div>
           </form>
         </div>
