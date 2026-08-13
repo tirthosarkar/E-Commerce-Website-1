@@ -77,6 +77,7 @@ const Product = () => {
               {' '}
               Good Product for men
             </h2>
+            {/*Price*/}
             <div className="font-bold text-lg mt-3">
               $100
               <span className="text-gray-500 font-normal">$150</span>
@@ -88,8 +89,25 @@ const Product = () => {
               magnam ipsum adipisci ducimus perferendis dolore sed id blanditiis
               odit, quis recusandae.
             </div>
-
+            {/*Size */}
             <div className="font-bold text-lg mt-3">Select Size</div>
+            <div className="flex gap-x-2">
+              <div className="bg-gray-100 hover:bg-gray-800 hover:text-white cursor-pointer rounded-md w-10 h-10 text-center flex justify-center items-center">
+                S
+              </div>
+              <div className="bg-gray-100 hover:bg-gray-800 hover:text-white cursor-pointer rounded-md w-10 h-10 text-center flex justify-center items-center">
+                M
+              </div>
+              <div className="bg-gray-100 hover:bg-gray-800 hover:text-white cursor-pointer rounded-md w-10 h-10 text-center flex justify-center items-center">
+                L
+              </div>
+              <div className="bg-gray-100 hover:bg-gray-800 hover:text-white cursor-pointer rounded-md w-10 h-10 text-center flex justify-center items-center">
+                XL
+              </div>
+              <div className="bg-gray-100 hover:bg-gray-800 hover:text-white cursor-pointer rounded-md w-10 h-10 text-center flex justify-center items-center">
+                XXL
+              </div>
+            </div>
           </div>
         </div>
       </div>
