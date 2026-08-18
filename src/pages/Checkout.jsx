@@ -26,9 +26,11 @@ function Checkout() {
       <div className="max-w-360 lg:px-8 px-5 mx-auto pb-5">
         <div className='grid grid-cols-12 gap-5'>
           {/**Billing Form */}
-<div className='col-span-8'></div>
+<div className='col-span-8'>
+  <h2>Billing Details</h2>
+</div>
 {/**Cart Summary */}
-<div></div>
+<div className='col-span-8'></div>
         </div>
       </div>
     </Layout>
