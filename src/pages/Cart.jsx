@@ -72,6 +72,8 @@ const Cart = () => {
 <div className='bg-gray-50 rounded-md p-4'>
 <h2 className='font-semibold text-gray-800 border-b border-gray-200 pb-3 mb-3 '>Summary</h2>
 <div className='flex justify-between'>
+  <div className='text-gray-800'>Subtotal</div>
+  <div className='text-gray-800'>$100</div>
 
 </div>
 </div>
