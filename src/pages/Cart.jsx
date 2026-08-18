@@ -26,7 +26,7 @@ const Cart = () => {
 
       <div className="max-w-360 lg:px-8 px-5 mx-auto py-5">
         <div className='grid grid-cols-12 gap-5'>
-          <div className='col-span-9'>
+          <div className='lg:col-span-9 col-span-12'>
             {/**Cart Items */}
             <table className='w-full'>
               <thead className='bg-gray-50'>
@@ -68,7 +68,7 @@ const Cart = () => {
 
             </table>
           </div>
-          <div className='col-span-3'>
+          <div className='lg:col-span-3 col-span-12'>
 <div className='bg-gray-50 rounded-md p-4'>
 <h2 className='font-semibold text-gray-800 border-b border-gray-200 pb-3 mb-3 '>Summary</h2>
 <div className='flex justify-between'>
