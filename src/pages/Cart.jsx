@@ -48,11 +48,10 @@ const Cart = () => {
   <h2 className='text-lg text-gray-800 font-semibold'>Nice white jacked for women</h2>
   <div className='flex gap-3 items-center'>
     <div className='text-gray-500 font-semibold'>$100</div>
-    <div className='bg-gray-300 justify-center items-center px-2 py-1 rounded-md'>XL
-
+    <div className='bg-gray-300 justify-center items-center px-2 py-1 rounded-md'>XL</div>
+    
     </div>
-    </div>
-
+<div className='text-red-400 text-sm mt-3'>Remove</div>
   </div>
 </div>
                 </td>
