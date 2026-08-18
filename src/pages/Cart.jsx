@@ -55,20 +55,26 @@ const Cart = () => {
   </div>
 </div>
                 </td>
-                <td className='px-3 py-2 text-center'>
-                  <div className='flex w-25 items-center justify-center px-2 py-1 border border-gray-200'>
+                <td className='px-3 py-2 text-center align-top'>
+                  <div className='flex w-25 items-center justify-center px-2 py-2 border border-gray-200'>
 <div className='w-5'>-</div>
 <div className='w-10'>1</div>
 <div className='w-5'>+</div>
                   </div>
                 </td>
-                <td className='px-3 py-2 text-center'>$100</td> </tr>
+                <td className='px-3 py-2 text-center'>$100</td> 
+                </tr>
             </tbody>
 
             </table>
           </div>
-          <div className='col-span-3 border'>
-asdf
+          <div className='col-span-3'>
+<div className='bg-gray-50 rounded-md p-4'>
+<h2 className='font-semibold text-gray-800 border-b border-gray-200 pb-3 mb-3 '>Summary</h2>
+<div className='flex justify-between'>
+
+</div>
+</div>
           </div>
         </div>
       </div>
