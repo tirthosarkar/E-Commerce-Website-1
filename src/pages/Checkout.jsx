@@ -18,7 +18,7 @@ function Checkout() {
       </div>
 
       {/*Title*/}
-      <div className="max-w-360 lg:px-8 px-5 mx-auto">
+      <div className="max-w-360 lg:px-8 px-5 mx-auto pb-3">
         <div className="flex text-4xl text-green-400">Checkout</div>
       </div>
     </Layout>
