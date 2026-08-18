@@ -13,10 +13,13 @@ function Checkout() {
           <Link to="/">Home</Link>
           <IoIosArrowForward />
 
-          <Link className="font-bold" to="/shop">
-            Cart
-          </Link>
+          <Link className="font-bold" to="/shop">Checkout</Link>
         </div>
+      </div>
+
+      {/*Title*/}
+      <div className="max-w-360 lg:px-8 px-5 mx-auto">
+        <div className="flex text-4xl text-green-400">Checkout</div>
       </div>
     </Layout>
   )
