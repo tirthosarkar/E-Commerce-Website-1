@@ -74,7 +74,15 @@ const Cart = () => {
 <div className='flex justify-between'>
   <div className='text-gray-800'>Subtotal</div>
   <div className='text-gray-800'>$100</div>
-
+   
+</div>
+<div className='flex pt-3'>
+  <Link
+            to="/"
+            className="bg-green-400 px-5 py-2.5 w-full text-center text-md rounded-md text-gray-800 hover:bg-gray-900 hover:text-white"
+          >
+            Proceed To Checkout
+          </Link>
 </div>
 </div>
           </div>
