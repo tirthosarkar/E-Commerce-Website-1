@@ -27,7 +27,7 @@ function Checkout() {
         <div className='grid grid-cols-12 gap-5'>
           {/**Billing Form */}
 <div className='col-span-8'>
-  <h2>Billing Details</h2>
+  <h2 className='text-2xl'>Billing Details</h2>
 </div>
 {/**Cart Summary */}
 <div className='col-span-8'></div>
