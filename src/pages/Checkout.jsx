@@ -1,10 +1,23 @@
 import React from 'react'
 import Layout from '../components/layouts/Layout'
+import { Link } from 'react-router-dom'
+import { IoIosArrowForward } from 'react-icons/io'
 
 function Checkout() {
   return (
     <Layout>
-      
+       {/*Breadcrumb*/}
+
+      <div className="max-w-360 lg:px-8 px-5 mx-auto py-5">
+        <div className="flex gap-x-1 items-center text-sm  ">
+          <Link to="/">Home</Link>
+          <IoIosArrowForward />
+
+          <Link className="font-bold" to="/shop">
+            Cart
+          </Link>
+        </div>
+      </div>
     </Layout>
   )
 }
