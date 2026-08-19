@@ -31,7 +31,10 @@ function Checkout() {
 <h2 className='text-2xl font-semibold pb-3 border-b border-gray-200 mb-3'>Billing Details</h2>
 <form action="">
   <div>
-    <input type="text" className='border border-gray-200 px-3 py-2 rounded-md' />
+    <input 
+placeholder='Enter Name'
+    type="text" 
+    className='border border-gray-200 px-3 py-3 w-full rounded-md' />
   </div>
 </form>
   </div>
