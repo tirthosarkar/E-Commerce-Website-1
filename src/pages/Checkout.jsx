@@ -36,6 +36,31 @@ placeholder='Enter Name'
     type="text" 
     className='border border-gray-200 px-3 py-3 w-full rounded-md' />
   </div>
+
+    <div className='grid grid-cols-2 gap-3'>
+<div>
+      <input 
+    placeholder='Enter Email'
+    type="text" 
+    className='border border-gray-200 px-3 py-3 w-full rounded-md' />
+</div>
+
+    <div>
+      <input 
+    placeholder='Enter No.'
+    type="text" 
+    className='border border-gray-200 px-3 py-3 w-full rounded-md' />
+</div>
+  </div>
+
+  <div>
+    <textarea
+    placeholder='Enter Address'
+    className='border border-gray-200 px-3 py-3 w-full rounded-md' rows={3}>
+      
+    </textarea>
+</div>
+
 </form>
   </div>
   
