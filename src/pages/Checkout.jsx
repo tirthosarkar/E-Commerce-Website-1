@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/layouts/Layout'
 import { Link } from 'react-router-dom'
 import { IoIosArrowForward } from 'react-icons/io'
+import ProductImg from "../assets/Product1.png"
 
 function Checkout() {
   return (
@@ -92,7 +93,20 @@ placeholder=' Zipcode'
 <div className='col-span-4'>
   <div className='rounded-md bg-gray-50 p-5 shadow-md'>
     <h2 className='text-2xl text-gray-800 font-semibold pb-3 border-b border-gray-200 mb-3'>Order Summary</h2>
+<div className='grid grid-cols-12'>
 
+  {/**Image */}
+  <div>
+    <img src={ProductImg} className='w-15' alt="" />
+  </div>
+
+  {/**title, size, qty */}
+  <div></div>
+
+  {/**price */}
+<div></div>
+
+</div>
   </div>
 </div>
         </div>
