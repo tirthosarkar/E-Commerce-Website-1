@@ -32,7 +32,7 @@ function Checkout() {
 <form action="">
   <div>
     <input 
-placeholder='Enter Name'
+placeholder=' Name'
     type="text" 
     className='border border-gray-200 px-3 py-3 w-full rounded-md' />
   </div>
@@ -40,14 +40,14 @@ placeholder='Enter Name'
     <div className='grid grid-cols-2 gap-3'>
 <div>
       <input 
-    placeholder='Enter Email'
+    placeholder=' Email'
     type="text" 
     className='border border-gray-200 px-3 py-3 w-full rounded-md' />
 </div>
 
     <div>
       <input 
-    placeholder='Enter Phone No.'
+    placeholder=' Phone No.'
     type="text" 
     className='border border-gray-200 px-3 py-3 w-full rounded-md' />
 </div>
@@ -55,7 +55,7 @@ placeholder='Enter Name'
 
   <div>
     <textarea
-    placeholder='Enter Address'
+    placeholder=' Address'
     className='border border-gray-200 px-3 py-3 w-full rounded-md' rows={3}>
       
     </textarea>
@@ -75,6 +75,13 @@ placeholder='Enter Name'
     type="text" 
     className='border border-gray-200 px-3 py-3 w-full rounded-md' />
 </div>
+  </div>
+
+  <div>
+    <input 
+placeholder=' Zipcode'
+    type="text" 
+    className='border border-gray-200 px-3 py-3 w-full rounded-md' />
   </div>
 
 </form>
