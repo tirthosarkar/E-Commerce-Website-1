@@ -28,7 +28,7 @@ function Checkout() {
           {/**Billing Form */}
 <div className='col-span-8'>
   <div className='shadow-lg rounded-md px-6 py-5 border border-gray-100'>
-<h2 className='text-2xl font-semibold pb-3 border-b border-gray-200 mb-3'>Billing Details</h2>
+<h2 className='text-2xl text-gray-800 font-semibold pb-3 border-b border-gray-200 mb-3'>Billing Details</h2>
 <form action="">
   <div>
     <input 
@@ -89,7 +89,12 @@ placeholder=' Zipcode'
   
 </div>
 {/**Cart Summary */}
-<div className='col-span-8'></div>
+<div className='col-span-4'>
+  <div className='rounded-md bg-gray-50 p-5 shadow-md'>
+    <h2 className='text-2xl text-gray-800 font-semibold pb-3 border-b border-gray-200 mb-3'>Order Summary</h2>
+
+  </div>
+</div>
         </div>
       </div>
     </Layout>
