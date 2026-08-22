@@ -153,12 +153,12 @@ $100
   <div>$200</div>
 </div>
 <div className='text-lg text-gray-900 font-bold mt-5'>Payment Method</div>
-<div className='flex text-sm text-gray-800 mt-3 space-x-5'>
-  <div className='space-x-2'>
+<div className='flex items-center text-sm text-gray-800 mt-3 space-x-5'>
+  <div className='space-x-2 flex items-center'>
     <input type="radio" />
     <span>COD</span>
   </div>
-  <div className='space-x-2'>
+  <div className='space-x-2 flex items-center'>
     <input type="radio" />
     <span>Stripe</span>
   </div>
