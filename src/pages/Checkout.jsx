@@ -96,15 +96,22 @@ placeholder=' Zipcode'
 <div className='grid grid-cols-12'>
 
   {/**Image */}
-  <div>
+  <div className='col-span-2'>
     <img src={ProductImg} className='w-15' alt="" />
   </div>
 
   {/**title, size, qty */}
-  <div></div>
+  <div className='col-span-8'>
+    {/**title */}
+    <div className='text-gray-700 font-semibold'>
+Nice white jacked for women
+    </div>
+  </div>
 
   {/**price */}
-<div></div>
+<div className='col-span-2'>
+$100
+</div>
 
 </div>
   </div>
