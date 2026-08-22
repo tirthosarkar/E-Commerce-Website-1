@@ -103,17 +103,17 @@ placeholder=' Zipcode'
   {/**title, size, qty */}
   <div className='col-span-8'>
     {/**title */}
-<h3 className='text-gray-700 font-semibold'>
+<h3 className='text-gray-700 text-sm font-semibold'>
   Nice white jacked for women
   </h3>
-    <div className='flex'>
-  <div>Size <span>L</span></div>
-  <div>Qty <span>2</span></div>
+    <div className='flex space-x-5 text-sm'>
+  <div className='text-gray-600'>Size <span className='text-gray-800'>L</span></div>
+  <div className='text-gray-600'>Qty <span className='text-gray-800'>2</span></div>
   </div>
   </div>
-  
+
   {/**price */}
-<div className='col-span-2'>
+<div className='col-span-2 text-sm'>
 $100
 </div>
 
