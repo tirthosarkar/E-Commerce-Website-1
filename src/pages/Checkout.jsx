@@ -152,7 +152,7 @@ $100
   <div>Total</div>
   <div>$200</div>
 </div>
-<div className=''>Payment Method</div>
+<div className='text-lg'>Payment Method</div>
   </div>
 </div>
         </div>
