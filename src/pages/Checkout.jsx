@@ -93,21 +93,25 @@ placeholder=' Zipcode'
 <div className='col-span-4'>
   <div className='rounded-md bg-gray-50 p-5 shadow-md'>
     <h2 className='text-2xl text-gray-800 font-semibold pb-3 border-b border-gray-200 mb-3'>Order Summary</h2>
-<div className='grid grid-cols-12'>
 
+<div className='grid grid-cols-12 gap-5'>
   {/**Image */}
   <div className='col-span-2'>
-    <img src={ProductImg} className='w-15' alt="" />
+    <img src={ProductImg} className='w-full rounded-md bg-slate-50' alt="" />
   </div>
 
   {/**title, size, qty */}
   <div className='col-span-8'>
     {/**title */}
-    <div className='text-gray-700 font-semibold'>
-Nice white jacked for women
-    </div>
+<h3 className='text-gray-700 font-semibold'>
+  Nice white jacked for women
+  </h3>
+    <div className='flex'>
+  <div>Size <span>L</span></div>
+  <div>Qty <span>2</span></div>
   </div>
-
+  </div>
+  
   {/**price */}
 <div className='col-span-2'>
 $100
