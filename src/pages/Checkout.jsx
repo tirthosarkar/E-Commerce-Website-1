@@ -152,7 +152,7 @@ $100
   <div>Total</div>
   <div>$200</div>
 </div>
-
+<div>Payment Method</div>
   </div>
 </div>
         </div>
