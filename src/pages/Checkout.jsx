@@ -144,6 +144,15 @@ $100
 
 </div>
 
+<div className='flex text-sm py-3 text-gray-500 justify-between font-semibold'>
+  <div>Subtotal</div>
+  <div>$200</div>
+</div>
+<div className='flex border-b border-gray-200 pb-5 text-sm text-gray-900 justify-between font-semibold'>
+  <div>Total</div>
+  <div>$200</div>
+</div>
+
   </div>
 </div>
         </div>
