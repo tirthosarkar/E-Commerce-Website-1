@@ -2,6 +2,11 @@ import React from 'react'
 import Layout from '../../components/layouts/Layout'
 import { Link } from 'react-router-dom'
 import { IoIosArrowForward } from 'react-icons/io'
+import Sidebar from './Sidebar'
+
+
+
+
 
 const Profile = () => {
   return (
@@ -22,8 +27,20 @@ const Profile = () => {
       {/*Title*/}
       <div className="max-w-360 lg:px-8 px-5 mx-auto">
         <div className="flex text-4xl text-green-400  ">Profile</div>
-      </div>
+<div className='max-w360 lg:px-8 px-5 mx-auto pt-5 pb-10'>
+<div className='grid grid-cols-12 gap-5'>
+    {/* sidebar */}
+<div className='col-span-3'>
+   
+   <Sidebar/>
 
+</div>
+{/* Form Area */}
+<div className='col-span-9 border'>asdh</div>
+
+</div>
+</div>
+      </div>
 
 
     </Layout>
