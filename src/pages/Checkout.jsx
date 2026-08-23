@@ -163,7 +163,7 @@ $100
     <span>Stripe</span>
   </div>
 </div>
-<button>
+<button className='bg-green-400'>
   Place Order Securely
 </button>
   </div>
