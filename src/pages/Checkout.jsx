@@ -168,7 +168,7 @@ $100
   Place Order Securely
 </button>
 
-<div className='text-gray-400'>Secure payment & encrypted checkout</div>
+<div className='text-gray-400 text-sm'>Secure payment & encrypted checkout</div>
   </div>
 </div>
         </div>
