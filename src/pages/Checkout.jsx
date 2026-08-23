@@ -155,7 +155,7 @@ $100
 <div className='text-lg text-gray-900 font-bold mt-5'>Payment Method</div>
 <div className='flex items-center text-sm text-gray-800 mt-3 space-x-5'>
   <div className='space-x-2 flex items-center'>
-    <input type="radio" />
+    <input type="radio" checked />
     <span>COD</span>
   </div>
   <div className='space-x-2 flex items-center'>
