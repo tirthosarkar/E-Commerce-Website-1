@@ -27,7 +27,7 @@ function Checkout() {
       <div className="max-w-360 lg:px-8 px-5 mx-auto pb-5">
         <div className='grid grid-cols-12 gap-5'>
           {/**Billing Form */}
-<div className='col-span-8'>
+<div className='lg:col-span-8 col-span-12'>
   <div className='shadow-lg rounded-md px-6 py-5 border border-gray-100'>
 <h2 className='text-2xl text-gray-800 font-semibold pb-3 border-b border-gray-200 mb-3'>Billing Details</h2>
 <form action="">
@@ -90,7 +90,7 @@ placeholder=' Zipcode'
   
 </div>
 {/**Cart Summary */}
-<div className='col-span-4'>
+<div className='lg:col-span-4 col-span-12'>
   <div className='rounded-md bg-gray-50 p-5 shadow-md'>
     <h2 className='text-2xl text-gray-800 font-semibold pb-3 border-b border-gray-200 mb-3'>Order Summary</h2>
 
@@ -168,7 +168,7 @@ $100
   Place Order Securely
 </button>
 
-<div className='text-gray-400 text-sm'>Secure payment & encrypted checkout</div>
+<div className='text-gray-400 text-sm text-center py-3'>Secure payment & encrypted checkout</div>
   </div>
 </div>
         </div>
