@@ -163,7 +163,7 @@ $100
     <span>Stripe</span>
   </div>
 </div>
-<button className='bg-green-400 px-5 font-semibold'>
+<button className='bg-green-400 px-5 font-semibold text-center'>
   Place Order Securely
 </button>
   </div>
