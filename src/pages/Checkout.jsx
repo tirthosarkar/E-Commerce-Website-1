@@ -153,7 +153,7 @@ $100
   <div>$200</div>
 </div>
 <div className='text-lg text-gray-900 font-bold mt-5'>Payment Method</div>
-<div className='flex items-center text-sm text-gray-800 mt-3 space-x-5'>
+<div className='flex mb-5 items-center text-sm text-gray-800 mt-3 space-x-5'>
   <div className='space-x-2 flex items-center'>
     <input type="radio" checked />
     <span>COD</span>
@@ -167,6 +167,8 @@ $100
  hover:bg-slate-900 hover:text-white rounded-md' data-discover="true">
   Place Order Securely
 </button>
+
+<div>Secure payment & encrypted checkout</div>
   </div>
 </div>
         </div>
