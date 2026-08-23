@@ -163,7 +163,8 @@ $100
     <span>Stripe</span>
   </div>
 </div>
-<button className='bg-green-400 px-5 font-semibold text-center py-2.5 w-full hover:bg-slate-900 hover:text-white'>
+<button className='bg-green-400 px-5 font-semibold text-center py-2.5 w-full
+ hover:bg-slate-900 hover:text-white rounded-md' data-discover="true">
   Place Order Securely
 </button>
   </div>
