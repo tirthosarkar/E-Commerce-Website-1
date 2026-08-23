@@ -163,6 +163,9 @@ $100
     <span>Stripe</span>
   </div>
 </div>
+<button>
+  Place Order Securely
+</button>
   </div>
 </div>
         </div>
