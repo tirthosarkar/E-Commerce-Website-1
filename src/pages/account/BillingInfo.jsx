@@ -10,7 +10,7 @@ const BillingInfo = () => {
 
 <div className='grid grid-cols-2 gap-5'>
  <div className='flex flex-col'>
-            <label htmlFor="" className='text-lg mb-2'>Name</label>
+            <label htmlFor="" className=' mb-2'>Name</label>
              <input                
                 type="text"
                 placeholder="Enter Name"
@@ -18,7 +18,7 @@ const BillingInfo = () => {
               />
         </div>
         <div className='flex flex-col'>
-            <label htmlFor="" className='text-lg mb-2'>Email</label>
+            <label htmlFor="" className=' mb-2'>Email</label>
              <input
                 type="text"
                 placeholder="Enter Email"
@@ -28,7 +28,7 @@ const BillingInfo = () => {
 </div>
 <div className='grid grid-cols-2 gap-5'>
      <div className='flex flex-col'>
-            <label htmlFor="" className='text-lg mb-2'>Phone</label>
+            <label htmlFor="" className=' mb-2'>Phone</label>
              <input
                 type="text"
                 placeholder="Enter Phone No."
@@ -40,7 +40,7 @@ const BillingInfo = () => {
        
         
         <div className='flex flex-col'>
-            <label htmlFor="" className='text-lg mb-2'>Address</label>
+            <label htmlFor="" className=' mb-2'>Address</label>
              <textarea                
                 rows={3}
                 placeholder="Enter Address"
@@ -50,7 +50,7 @@ const BillingInfo = () => {
 
         <div className='grid grid-cols-2 gap-5'>
  <div className='flex flex-col'>
-            <label htmlFor="" className='text-lg mb-2'>City</label>
+            <label htmlFor="" className=' mb-2'>City</label>
              <input                
                 type="text"
                 placeholder="Enter City"
@@ -58,7 +58,7 @@ const BillingInfo = () => {
               />
         </div>
         <div className='flex flex-col'>
-            <label htmlFor="" className='text-lg mb-2'>State</label>
+            <label htmlFor="" className=' mb-2'>State</label>
              <input
                 type="text"
                 placeholder="Enter State"
@@ -69,7 +69,7 @@ const BillingInfo = () => {
 
 <div className='grid grid-cols-2 gap-5'>
      <div className='flex flex-col'>
-            <label htmlFor="" className='text-lg mb-2'>Zip</label>
+            <label htmlFor="" className=' mb-2'>Zip</label>
              <input
                 type="text"
                 placeholder="Enter Zip"
