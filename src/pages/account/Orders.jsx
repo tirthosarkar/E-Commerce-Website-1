@@ -40,6 +40,36 @@ const Orders = () => {
     <h2 className='bg-gray-100 px-5 py-2 rounded-t-md 
     text-lg font-semibold'>Orders</h2>
 
+<div className='overflow-auto'>
+ <table className='w-full'>
+<thead>
+  <tr className='text-left border-b border-gray-200 text-gray-600'>
+    <th className='px-3 py-2'>Customer</th>
+    <th className='px-3 py-2'>Email</th>
+    <th className='px-3 py-2'>Phone</th>
+    <th className='px-3 py-2'>Amount</th>
+    <th className='px-3 py-2'>Status</th>
+    <th className='px-3 py-2'>Data</th>
+    <th className='px-3 py-2'>Action</th>
+  </tr>
+</thead>
+
+<tbody>
+   <tr>
+    <td className='px-3 py-2 font-bold'>Tirtho Sarkar</td>
+    <td className='px-3 py-2'>tirthosarkar1@gmail</td>
+    <td className='px-3 py-2'>01886-608934</td>
+    <td className='px-3 py-2 font-bold'>$100</td>
+    <td className='px-3 py-2'>Paid</td>
+    <td className='px-3 py-2'>20 jan 2026</td>
+    <td className='px-3 py-2'></td>
+  </tr>
+</tbody>
+
+ </table>
+</div>
+
+
 </div>
 
 </div>
