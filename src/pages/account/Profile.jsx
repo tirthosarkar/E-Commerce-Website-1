@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { IoIosArrowForward } from 'react-icons/io'
 import Sidebar from './Sidebar'
 import PersonalInfo from './PersonalInfo'
+import BillingInfo from './BillingInfo'
 
 
 
@@ -35,10 +36,14 @@ const Profile = () => {
    
    <Sidebar/>
 
+   
+
 </div>
 {/* Form Area */}
 <div className='col-span-9'>
 <PersonalInfo/>
+
+<BillingInfo/>
 
 </div>
 

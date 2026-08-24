@@ -3,7 +3,7 @@ import React from 'react'
 const PersonalInfo = () => {
   return (
     <>
-      <div className='shadow-lg rounded-md'>
+      <div className='shadow-lg rounded-md mb-10'>
     <h2 className='bg-gray-100 px-5 py-2 rounded-t-md 
     text-lg font-semibold'>Personal Information</h2>
 
